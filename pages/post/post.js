@@ -1,6 +1,8 @@
 Page({
   data: {
-    message: 'Hello MINA!'
+    message: 'Hello MINA!',
+    data:"这是data",
+    app:"app的内容"
   },
   onLoad:function(){
     var post_content1 = {
