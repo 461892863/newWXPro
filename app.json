@@ -2,7 +2,8 @@
   "pages":[
     "pages/post/post",
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/test/test"
     
   ],
   "window":{
@@ -10,5 +11,30 @@
     "backgroundTextStyle":"light",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "第一个页面",
+        "selectedColor":"rgba(192,168,52)",
+        "position":"top"
+      },
+      {
+      "pagePath": "pages/post/post",
+      "text": "The Second Floor"
+    
+      },
+      {
+        "pagePath": "pages/test/test",
+        "text": "第三个页面"
+      }
+   ]
+  },
+  "networkTimeout": {
+    "request": 20000,
+    "connectSocket": 20000,
+    "uploadFile": 20000,
+    "downloadFile": 20000
   }
 }

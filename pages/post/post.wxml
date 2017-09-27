@@ -1,5 +1,5 @@
 <!--pages/post/post.wxml-->
-<view class="classname" >
+<view class="classname" indicator-dots="true" vertical="true">
   <swiper  indicator-dots="true" autoplay="true" circular="true" interval="4000">
     <swiper-item>
       <image src="/images/app.png"></image>
@@ -11,10 +11,12 @@
       <image src="/images/app.png"></image>
     </swiper-item>
   </swiper>
-  <view class="bContent">
+  <view class="bContent" >
     <view class="contentHead">
       <image src="/images/1.jpg"></image>
       <text>{{ message }}</text>
+      <image src="{{post_image1}}"></image>
+      <text>{{ post_image }}</text>
     </view>
     
   
