@@ -1,0 +1,10 @@
+<!--pages/new/new.wxml-->
+<view class="classname" wx:if="condition">
+{{arr[0]}}
+</view>
+
+<view class="classname" wx:for="{{arr}}">{{item}}</view>  
+<block wx:for="{{[1,2,3]}}">
+  <view>
+  {{index}}:{{item}}     </view>
+</block>

@@ -1,0 +1,19 @@
+<template name="postTemplate" data="">
+  <swiper  indicator-dots="true" autoplay="true" circular="true" interval="4000">
+    <swiper-item>
+      <image src="/images/6.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/7.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/8.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/4.jpg"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/5.jpg"></image>
+    </swiper-item>
+  </swiper>
+</template>

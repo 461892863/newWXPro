@@ -6,6 +6,11 @@ Page({
     motto: 'Hello World',
     userInfo: {}
   },
+  atract:function(){
+    
+
+  }
+  ,
   //事件处理函数
   bindViewTap: function() {
     wx.navigateTo({
@@ -23,4 +28,8 @@ Page({
       })
     })
   }
-})
+});
+
+function alert(){
+  alert(1);
+}

@@ -1,4 +1,15 @@
-<view class="classname">
+
+ <swiper indicator-dots="true" autoplay="true" circular="true" interval="4000">
+    <swiper-item>
+      <image src="/images/app.png"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/app.png"></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/app.png"></image>
+    </swiper-item>
+  </swiper>
+  <audio src=""> 这是音频文件(给个音频地址please~ ) </audio>
   <text>今朝有酒今朝醉</text>
-  <audio src="sdasdsa"></audio>
-</view>
+  <image wx:wx:if="{{as}}" src="/images/6.jpg"></image>

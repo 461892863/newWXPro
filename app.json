@@ -1,35 +1,39 @@
+
 {
-  "pages":[
-    "pages/post/post",
+  "pages": [
+    "pages/new/new",
+    "pages/post/post", 
     "pages/index/index",
     "pages/logs/logs",
     "pages/test/test"
-    
   ],
-  "window":{
-    "navigationBarBackgroundColor":"#405f80",
-    "backgroundTextStyle":"light",
+  "window": {
+    "navigationBarBackgroundColor": "#405f80",
+    "backgroundTextStyle": "light",
     "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
   },
   "tabBar": {
     "list": [
       {
-        "pagePath": "pages/index/index",
-        "text": "第一个页面",
-        "selectedColor":"rgba(192,168,52)",
-        "position":"top"
+        "pagePath":"pages/new/new",
+        "text":"第一个测试"
       },
       {
-      "pagePath": "pages/post/post",
-      "text": "The Second Floor"
-    
+        "pagePath": "pages/index/index",
+        "text": "第2个页面",
+        "selectedColor": "rgba(192,168,52)",
+        "position": "top"
+      },
+      {
+        "pagePath": "pages/post/post",
+        "text": "The 3 Floor"
       },
       {
         "pagePath": "pages/test/test",
-        "text": "第三个页面"
+        "text": "第4个页面"
       }
-   ]
+    ]
   },
   "networkTimeout": {
     "request": 20000,
